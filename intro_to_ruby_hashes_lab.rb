@@ -3,11 +3,11 @@ def new_hash
 end
 
 def my_hash
-  nieces = {Olivia: "Oli", Emilia: "Emi", Margaret: "MagMag"}
+  {Olivia: "Oli", Emilia: "Emi", Margaret: "MagMag"}
 end
 
 def pioneer
-  pioneers = {name: "Grace Hopper"}
+  {name: "Grace Hopper"}
 end
 
 def id_generator
