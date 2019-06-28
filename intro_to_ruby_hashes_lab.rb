@@ -23,6 +23,6 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  hash.has_key?(key) ? key += 1 : key = 1
+  hash.has_key?(key) ? key += 1 : key => 1
 end
 
