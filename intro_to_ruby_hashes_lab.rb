@@ -11,12 +11,11 @@ def pioneer
 end
 
 def id_generator
-  ids = {id: 23}
+  {id: 23}
 end
 
 def my_hash_creator(key, value)
-  hash = {}
-  hash[key] = value
+  {key: value}
 end
 
 def read_from_hash(hash, key)
